@@ -14,6 +14,6 @@ The postgres connection can be configured via the UI once it's started. You can 
 
 Here is an example docker command:
 
-    docker run --rm -it -P -e POSTGRES=yourdbhost -e POSTGRES_PASSWORD=yourdbpassword -e POSTGRES_DB=yourdbname  moritanosuke/docker-pgweb
+    docker run --rm -it -p 5555:8081 -e POSTGRES=yourdbhost -e POSTGRES_PASSWORD=yourdbpassword -e POSTGRES_DB=yourdbname  moritanosuke/docker-pgweb
 
-The UI is available at http://localhost:8081/.
+The UI is available at http://localhost:5555/.
