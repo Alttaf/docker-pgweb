@@ -3,7 +3,8 @@ FROM    alpine
 EXPOSE  8081
 
 ENV     POSTGRES=postgres \
-        PORT=5432 USER=postgres \
+        PORT=5432 \
+        USER=postgres \
         POSTGRES_PASSWORD=postgres \
         POSTGRES_DB=postgres \
         SSL=disable
