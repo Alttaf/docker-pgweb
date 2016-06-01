@@ -15,4 +15,6 @@ RUN     curl --silent -L -o pgweb_linux_386.zip https://github.com/sosedoff/pgwe
         && rm pgweb_linux_386.zip
 
 COPY    docker-entrypoint.sh /docker-entrypoint.sh
+RUN     chmod +x /docker-entrypoint.sh
+
 ENTRYPOINT ["/docker-entrypoint.sh"]
