@@ -2,6 +2,7 @@
 Simple Dockerfile for pgweb - web UI for postgres database
 
 [![](https://images.microbadger.com/badges/version/moritanosuke/docker-pgweb.svg)](http://microbadger.com/images/moritanosuke/docker-pgweb)
+[![](https://images.microbadger.com/badges/image/moritanosuke/docker-pgweb.svg)](http://microbadger.com/images/moritanosuke/docker-pgweb)
 
 # Environment variables
 
